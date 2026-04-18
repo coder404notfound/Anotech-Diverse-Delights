@@ -7,7 +7,7 @@ This project demonstrates practical frontend engineering skills, including state
 
 ## 🚀 Live Demo
 
-> *(Add your deployed link here – Vercel / Netlify)*
+https://anotech-diverse-delights.vercel.app/
 
 ---
 
@@ -161,7 +161,7 @@ Focus was placed on:
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/coder404notfound/Anotech-Diverse-Delights.git
 
 # Navigate into the project
 cd diverse-delights
