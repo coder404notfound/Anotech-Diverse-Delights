@@ -16,7 +16,7 @@ export default function App() {
   return (
     <BrowserRouter>
 
-      {/* Toast system (global) */}
+      {/* Toast system */}
       <Toaster
         position="top-right"
         toastOptions={{
