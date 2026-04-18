@@ -10,8 +10,10 @@ const Navbar = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
-  const isActive = (path) =>
-    location.pathname.startsWith(path)
+  const isActive = (path) => {
+    if (path === "/") return location.pathname === "/"
+    return location.pathname.startsWith(path)
+    }
 
   const totalItems = cart.reduce(
     (s, i) => s + i.quantity,
